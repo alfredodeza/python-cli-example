@@ -36,8 +36,6 @@ def run_lsblk(device):
 
 
 def main(device):
-    print(f"Device: {device}")
-    print(f"Verbose: {verbose}")
     print(f"         '{run_lsblk(device)}'")
 
 if __name__ == '__main__':
