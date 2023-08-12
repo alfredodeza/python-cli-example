@@ -18,6 +18,21 @@ These are all the tools and editor extensions recommended for Python development
 - [Python extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-0000-alfredodeza)
 - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot&WT.mc_id=academic-0000-alfredodeza)
 
+## Working with Modules
+Adding modules (Python files) is as easy as adding more files. But you can also add a directory and add an `__init__.py` file to it. This will allow you to import the modules from the directory as if they were part of the same file. There are some caveats and things to keep in mind when working with modules, and what strategies you can use to make your code more maintainable and easier to understand for you as well as other developers.
+
+1. Use the [ceph-volume](https://github.com/ceph/ceph/tree/main/src/ceph-volume/ceph_volume) command-line tool as an example to explore module organizing
+1. Add imports to `__init__.py` as a shorthand for making modules available, but be aware of side effects
+1. Use relative imports to avoid circular imports and understand absolute 
+
+## Dependencies and libraries
+Using dependencies can be tricky, but you can use the well known `requirements.txt` file to keep track of the dependencies for your projects which is something that works with the `pip` installer tool. Here are some things to be aware of when working with dependencies:
+
+1. Create a `requirements.txt` file, optionally read it in for the `setup.py` file
+1. Use separate files for development and testing like `dev-requirements.txt` and `test-requirements.txt` when needed
+1. Use `pip` to install dependencies and use `pip freeze` to _pin_ dependencies. Be aware of the caveats and positive aspects of pinning.
+1. Understand how relaxed dependencies can be instead of pinning
+
 ## Resources
 Explore additional content that you can use to learn more about the topics covered in this course.
 
