@@ -1,6 +1,9 @@
 # Python CLI Example
 A small Python CLI example you can use to build on. With an emphasis on Linux and creating automation tools that solve a problem for you. THis is the basis for DevOps principles that you can apply in your own environment as well as production environments.
 
+## Practice Lab
+Use the [included practice lab](./lab.md) to apply the content you've learned in this week. Follow the steps to create your own repository and apply the requirements to complete the lab.
+
 ## Setting up the environment
 Python development will require you to have Python installed on your system. For Linux systems, you should prefer the Python that comes available through the package manager. For example, on Ubuntu, you can install Python with the following command:
 
