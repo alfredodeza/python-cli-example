@@ -10,7 +10,10 @@ In this practice lab, you will build a command line tool that lists files in a d
 
 **Steps:**
 
-1. Create a new repository in your account for your Python project. Use the [Python template repository](https://github.com/alfredodeza/python-cli-example) to quickly generate one for your own account. Use this link to [create it in one step](https://github.com/alfredodeza/python-cli-example/generate).
+For an easy setup with all dependencies installed and a pre-configured `virtualenv`, [open the repository with Codespaces](https://codespaces.new/alfredodeza/python-cli-example?quickstart=1)
+
+Alternate setup: Create a new repository in your account for your Python project. Use the [Python template repository](https://github.com/alfredodeza/python-cli-example/) to quickly generate one for your own account. Use this link to [create it in one step](https://github.com/alfredodeza/python-cli-example/generate).
+
 1. Use the Click framework to handle arguments and options. Refer to the [framework example](./examples/framework.py) in this repository as a guide
 1. Use the `os.listdir()` module to list files in a directory:
 
