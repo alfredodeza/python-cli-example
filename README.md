@@ -1,6 +1,20 @@
 # Python CLI Example
 A small Python CLI example you can use to build on. With an emphasis on Linux and creating automation tools that solve a problem for you. THis is the basis for DevOps principles that you can apply in your own environment as well as production environments.
 
+💡 Are you just looking for a 👉 [Rust template](https://github.com/alfredodeza/rust-template) to get started easily with a Rust project? The [template](https://github.com/alfredodeza/rust-template/generate) has everything you need!
+
+This repository is part of the Python and Rust CLI tools course:
+
+- [1: Resources](https://github.com/alfredodeza/python-and-rust-tools) 
+- [2: Python CLI](https://github.com/alfredodeza/python-cli-example)  👈 You are here!
+- [3: Rust CLI](https://github.com/alfredodeza/rust-cli-example)
+- [4: Python Advanced CLI](https://github.com/alfredodeza/advanced-python-cli)
+- [5: Rust Advanced CLI](https://github.com/alfredodeza/advanced-rust-cli)
+
+🚀 **Watch the Video course**
+
+[![O'Reilly](https://learning.oreilly.com/covers/urn:orm:video:28037639VIDEOPAIML/400w/)](https://learning.oreilly.com/videos/devops-command-line-tools/28037639VIDEOPAIML/ "Python and Rust CLI tools")
+
 ## Practice Lab
 Use the [included practice lab](./lab.md) to apply the content you've learned in this week. Follow the steps to create your own repository and apply the requirements to complete the lab.
 
