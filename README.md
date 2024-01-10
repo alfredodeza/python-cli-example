@@ -1,3 +1,5 @@
+# [![Coursera Course](./assets/banner.svg)](https://insight.paiml.com/nvd "Coursera Course")
+
 # Python CLI Example
 A small Python CLI example you can use to build on. With an emphasis on Linux and creating automation tools that solve a problem for you. THis is the basis for DevOps principles that you can apply in your own environment as well as production environments.
 
